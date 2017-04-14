@@ -45,7 +45,7 @@ wget https://raw.githubusercontent.com/Punk--Rock/NIXStats-Webhook-Telegram/mast
 
 ![Notification](http://i.imgur.com/VWvJehU.png)
 
-## Special Thanks
+## Special thanks
 
 [![Twitter](https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-24.png)](https://twitter.com/Bilyb0y) [![GitHub](https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-24.png)](https://github.com/bilyboy785/) Martin Bouillaud and his [NIXStats-Webhook-Telegram](https://github.com/bilyboy785/nixstats-webhook-telegram) version
 
