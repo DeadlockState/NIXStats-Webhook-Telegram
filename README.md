@@ -13,7 +13,7 @@ A Webhook to get your servers/monitors notifications on Telegram with NIXStats
 - A NIXStats account
 - NIXStats agent installed on your server
 - A Telegram Bot (see [here](https://core.telegram.org/bots#creating-a-new-bot) how to create a new Telegram bot)
-- Your Telegram user ID (you can get [here](https://telegram.me/myidbot))
+- Your Telegram user ID (you can get it [here](https://telegram.me/myidbot))
 
 ### On your server
 
