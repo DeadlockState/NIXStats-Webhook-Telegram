@@ -38,10 +38,9 @@ if(isset($_POST['payload']))
 		$notification_id = $data['notification_id'];
 		$name = $data['name'];
 		$status = strtoupper($data['status']);
-		$subject = str_replace('Monitor', 'domain', $data['subject']);
+		$subject = $data['subject'];
 		$start_time = date('Y-m-d H:i:s', $data['start_time']+($timezone*3600));
-		$end_time = $data['end_time'];
-		$time = date('Y-m-d H:i:s', $data['time']+($timezone*3600));
+		$end_time = date('Y-m-d H:i:s', $data['end_time']+($timezone*3600));
 		
 		if($status == "OPEN")
 		{
@@ -49,7 +48,7 @@ if(isset($_POST['payload']))
 		}
 		else
 		{
-			telegram($status." - ".$name." ".$subject."\n".$time."\nView domain statistics on https://nixstats.com/domain/".$domain_id);
+			telegram($status." - ".$name." ".$subject."\n".$end_time."\nView domain statistics on https://nixstats.com/domain/".$domain_id);
 		}
 	}
 }
