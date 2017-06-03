@@ -6,7 +6,7 @@ A Webhook to get your servers/monitors notifications on Telegram with NIXStats
 
 ## Screenshots
 
-![screenshot](http://i.imgur.com/0UGfmlH.png)
+![screenshot](http://i.imgur.com/sKdIplO.png)
 
 ## Installation
 
